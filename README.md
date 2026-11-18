@@ -17,6 +17,10 @@ A question-answering assistant that answers from your own documents using retrie
 - Qdrant (planned)
 - FastAPI and Streamlit (planned)
 
+## Sample data
+
+`sample_data/StVO.pdf`: Straßenverkehrs-Ordnung (StVO), Bundesministerium der Justiz, https://www.gesetze-im-internet.de. Official work under §5 UrhG.
+
 ## Run it
 
 ```bash
