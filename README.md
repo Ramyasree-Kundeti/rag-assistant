@@ -1,8 +1,9 @@
 # RAG Assistant
 
 A question-answering assistant that answers from your own documents using retrieval-augmented generation (RAG).
+The demo uses the German road traffic regulations (StVO): ask in German or English, and it finds the relevant paragraphs.
 
-## What it will do
+## How it works
 
 1. Load documents (PDFs) and split them into chunks
 2. Turn the chunks into embeddings and store them in a vector database (Qdrant)
@@ -14,7 +15,8 @@ A question-answering assistant that answers from your own documents using retrie
 - Python
 - LangChain
 - Groq (hosted Llama and open-source models)
-- Qdrant (planned)
+- Multilingual embeddings: intfloat/multilingual-e5-small (sentence-transformers)
+- Qdrant (local mode)
 - FastAPI and Streamlit (planned)
 
 ## Sample data
@@ -35,17 +37,26 @@ Create a `.env` file in the project folder:
 GROQ_API_KEY=your_key_here
 ```
 
-Then run:
+Build the vector index once (downloads the embedding model on first run):
 
 ```bash
-python hello_llm.py
+python build_index.py
+```
+
+Then search the StVO in German or English:
+
+```bash
+python search.py
 ```
 
 ## Roadmap
 
--  First LLM call with LangChain and Groq
--  Load and chunk PDF documents
--  Embeddings and vector search with Qdrant
--  Answer questions from retrieved context
--  Evaluation of answer quality
--  REST API with FastAPI and a Streamlit demo
+Done:
+- First LLM call with LangChain and Groq
+- Load and chunk PDF documents
+- Embeddings and vector search with Qdrant
+
+Next:
+- Answer questions from retrieved context
+- Evaluation of answer quality
+- REST API with FastAPI and a Streamlit demo
