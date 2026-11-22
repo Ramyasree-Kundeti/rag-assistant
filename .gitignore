@@ -1,1 +1,6 @@
 .env
+.venv/
+.idea/
+data/
+qdrant_db/
+__pycache__/
