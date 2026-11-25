@@ -1,0 +1,13 @@
+time,experiment,question,rank,in_top_3
+2026-11-23 11:41,"baseline: e5-small, chunk 500",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,not found,False
+2026-11-23 11:41,"baseline: e5-small, chunk 500",Who has right of way at a crossing without traffic signs?,not found,False
+2026-11-25 18:02,"paragraph chunking (max 1200), headers removed",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,not found,False
+2026-11-25 18:02,"paragraph chunking (max 1200), headers removed",Who has right of way at a crossing without traffic signs?,not found,False
+2026-11-25 18:04,"paragraph chunking (max 1200), headers removed",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,not found,False
+2026-11-25 18:04,"paragraph chunking (max 1200), headers removed",Who has right of way at a crossing without traffic signs?,not found,False
+2026-11-25 18:13,"baseline: e5-small, chunk 500",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-25 18:13,"baseline: e5-small, chunk 500",Who has right of way at a crossing without traffic signs?,not found,False
+2026-11-25 18:15,"paragraph chunking (max 1200), headers removed",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-25 18:15,"paragraph chunking (max 1200), headers removed",Who has right of way at a crossing without traffic signs?,not found,False
+2026-11-25 18:33,model changed to intfloat/multilingual-e5-base,Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-25 18:33,model changed to intfloat/multilingual-e5-base,Who has right of way at a crossing without traffic signs?,7,False

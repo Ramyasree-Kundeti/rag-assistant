@@ -1,6 +1,7 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 
-MODEL_NAME = "intfloat/multilingual-e5-small"
+#MODEL_NAME = "intfloat/multilingual-e5-small"
+MODEL_NAME = "intfloat/multilingual-e5-base"
 
 def get_embeddings():
 
