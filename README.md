@@ -55,8 +55,8 @@ Done:
 - First LLM call with LangChain and Groq
 - Load and chunk PDF documents
 - Embeddings and vector search with Qdrant
+- Answer questions from retrieved context
 
 Next:
-- Answer questions from retrieved context
 - Evaluation of answer quality
 - REST API with FastAPI and a Streamlit demo
