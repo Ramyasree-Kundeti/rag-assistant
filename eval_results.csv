@@ -11,3 +11,63 @@ time,experiment,question,rank,in_top_3
 2026-11-25 18:15,"paragraph chunking (max 1200), headers removed",Who has right of way at a crossing without traffic signs?,not found,False
 2026-11-25 18:33,model changed to intfloat/multilingual-e5-base,Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
 2026-11-25 18:33,model changed to intfloat/multilingual-e5-base,Who has right of way at a crossing without traffic signs?,7,False
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Who has right of way at a crossing without traffic signs?,1,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Wie schnell darf man innerorts fahren?,1,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",What is the speed limit in towns?,2,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Wo muss man auf der Fahrbahn fahren?,3,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Which side of the road must you drive on?,1,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Muss man sich anschnallen?,3,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Do I have to wear a seatbelt?,1,True
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Wer hat am Zebrastreifen Vorrang?,not found,False
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Who has priority at a zebra crossing?,not found,False
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Darf ich beim Fahren das Handy benutzen?,not found,False
+2026-11-28 07:51,"12 questions, e5-base, paragraph chunks, query translation",Can I use my phone while driving?,not found,False
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Who has right of way at a crossing without traffic signs?,1,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Wie schnell darf man innerorts fahren?,1,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",What is the speed limit in towns?,2,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Wo muss man auf der Fahrbahn fahren?,3,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Which side of the road must you drive on?,1,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Muss man sich anschnallen?,3,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Do I have to wear a seatbelt?,1,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Wer hat am Fußgängerüberweg Vorrang?,2,True
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Who has priority at a zebra crossing?,not found,False
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Darf ich beim Fahren ein elektronisches Gerät benutzen?,4,False
+2026-11-28 07:57,"12 questions, e5-base, paragraph chunks, query translation",Can I use my phone while driving?,not found,False
+2026-11-28 08:03,query rewrite to legal German terms,Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-28 08:03,query rewrite to legal German terms,Who has right of way at a crossing without traffic signs?,1,True
+2026-11-28 08:03,query rewrite to legal German terms,Wie schnell darf man innerorts fahren?,1,True
+2026-11-28 08:03,query rewrite to legal German terms,What is the speed limit in towns?,2,True
+2026-11-28 08:03,query rewrite to legal German terms,Wo muss man auf der Fahrbahn fahren?,3,True
+2026-11-28 08:03,query rewrite to legal German terms,Which side of the road must you drive on?,1,True
+2026-11-28 08:03,query rewrite to legal German terms,Muss man sich anschnallen?,3,True
+2026-11-28 08:03,query rewrite to legal German terms,Do I have to wear a seatbelt?,1,True
+2026-11-28 08:03,query rewrite to legal German terms,Wer hat am Zebrastreifen Vorrang?,not found,False
+2026-11-28 08:03,query rewrite to legal German terms,Who has priority at a zebra crossing?,not found,False
+2026-11-28 08:03,query rewrite to legal German terms,Darf ich beim Fahren das Handy benutzen?,not found,False
+2026-11-28 08:03,query rewrite to legal German terms,Can I use my phone while driving?,not found,False
+2026-11-28 08:10,query rewrite to legal German terms,Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-28 08:10,query rewrite to legal German terms,Who has right of way at a crossing without traffic signs?,1,True
+2026-11-28 08:10,query rewrite to legal German terms,Wie schnell darf man innerorts fahren?,1,True
+2026-11-28 08:11,query rewrite to legal German terms,What is the speed limit in towns?,1,True
+2026-11-28 08:11,query rewrite to legal German terms,Wo muss man auf der Fahrbahn fahren?,9,False
+2026-11-28 08:11,query rewrite to legal German terms,Which side of the road must you drive on?,4,False
+2026-11-28 08:11,query rewrite to legal German terms,Muss man sich anschnallen?,1,True
+2026-11-28 08:11,query rewrite to legal German terms,Do I have to wear a seatbelt?,1,True
+2026-11-28 08:11,query rewrite to legal German terms,Wer hat am Zebrastreifen Vorrang?,not found,False
+2026-11-28 08:11,query rewrite to legal German terms,Who has priority at a zebra crossing?,1,True
+2026-11-28 08:11,query rewrite to legal German terms,Darf ich beim Fahren das Handy benutzen?,not found,False
+2026-11-28 08:11,query rewrite to legal German terms,Can I use my phone while driving?,not found,False
+2026-11-28 08:21,"translation (re-run, reproducible)",Wer hat an einer Kreuzung ohne Verkehrszeichen Vorfahrt?,1,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Who has right of way at a crossing without traffic signs?,1,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Wie schnell darf man innerorts fahren?,1,True
+2026-11-28 08:21,"translation (re-run, reproducible)",What is the speed limit in towns?,2,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Wo muss man auf der Fahrbahn fahren?,3,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Which side of the road must you drive on?,1,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Muss man sich anschnallen?,3,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Do I have to wear a seatbelt?,1,True
+2026-11-28 08:21,"translation (re-run, reproducible)",Wer hat am Zebrastreifen Vorrang?,not found,False
+2026-11-28 08:21,"translation (re-run, reproducible)",Who has priority at a zebra crossing?,not found,False
+2026-11-28 08:21,"translation (re-run, reproducible)",Darf ich beim Fahren das Handy benutzen?,not found,False
+2026-11-28 08:21,"translation (re-run, reproducible)",Can I use my phone while driving?,not found,False

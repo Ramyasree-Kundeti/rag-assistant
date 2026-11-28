@@ -32,11 +32,21 @@ def build_context(docs):
 
     return "\n\n".join(context)
 
+def rewrite_query(question):
+    prompt = f"""Rewrite the question as a German question.
+    Use the formal legal terms that a German law text like the StVO would use.
+    Keep the meaning. Return only the question, no explanation.
+
+    Question: {question}"""
+    answer = llm.invoke(prompt)
+    return answer.content.strip()
+
 def get_answer(q):
     print("Actual Question", q)
     lang = detect(q)
     german_q = q if lang == "de" else translate_to_german(q)
-    print("Translated Question: ", german_q )
+    #german_q = rewrite_query(q)
+    print("Translated Question: ", german_q)
     docs = search(german_q, k=3)
     context = build_context(docs)
     prompt = f"""rules: Answer only using the context below.
